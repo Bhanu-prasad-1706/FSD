@@ -55,6 +55,38 @@
             color: black;
             transition: 0.3s;
         }
+
+        form {
+            width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: #f2f2f2;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkgreen;
+        }
     </style>
 </head>
 
@@ -129,6 +161,82 @@
         </table>
 
     </section>
+    <section id="registration">
+
+        <h1>Event Registration Form</h1>
+
+        <form onsubmit="showMessage();return false;">
+
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name" required autofocus>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Event Date</label>
+            <input type="date" required>
+
+            <label>Select Event Type</label>
+
+            <select required>
+
+                <option value="">
+                    Choose Event
+                </option>
+
+                <option>
+                    Music Festival
+                </option>
+
+                <option>
+                    Book Fair
+                </option>
+
+                <option>
+                    Art Exhibition
+                </option>
+
+                <option>
+                    Sports Festival
+                </option>
+
+                <option>
+                    Food Festival
+                </option>
+
+                <option>
+                    Dance Event
+                </option>
+
+            </select>
+
+            <label>Message</label>
+
+            <textarea rows="4" placeholder="Enter your message">
+</textarea>
+
+            <button type="submit">
+                Register
+            </button>
+
+            <br><br>
+
+            <output id="result"></output>
+
+        </form>
+
+    </section>
+
+    <script>
+
+        function showMessage() {
+
+            document.getElementById("result").innerHTML =
+                "Registration Successful";
+
+        }
+
+    </script>
     <main>
         <section id="Home">
             <h1>Home</h1>
