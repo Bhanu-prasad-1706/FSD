@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <diV class="container">
+        <h1>Society Survey and Election System</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="survey.html">Survey</a>
+            <a href="polls.html">Polls</a>
+            <a href="vote.html">Vote</a>
+            <a href="candidates.html">Candidates</a>
+            <a href="results.html">Results</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <header>
+            <h2>Register for Society Survey and Election System</h2>
+        </header>
+        <main>
+            <section>
+
+                <h3>Create Your Account</h3>
+                <form action="login.html" method="POST">
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name" required><br><br>
+
+                    <label for="flat">Flat / House Number</label><br>
+                    <input type="text" id="flat" required><br><br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" required><br><br>
+
+                    <label for="mobile">Mobile Number</label><br>
+                    <input type="tel" id="mobile" required><br><br>
+
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" required><br><br>
+
+                    <label for="confirm">Confirm Password</label><br>
+                    <input type="password" id="confirm" required><br><br>
+
+                    <label>Resident Type</label><br>
+
+                    <input type="radio" id="owner" name="resident">
+                    <label for="owner">Owner</label>
+
+                    <input type="radio" id="tenant" name="resident">
+                    <label for="tenant">Tenant</label>
+
+                    <br><br>
+
+                    <button type="submit">Register</button>
+                </form>
+
+            </section>
+            <section>
+                <p>Already have an account?
+                <div class="action-buttons"><a href="login.html" class="btn">Login here</a></div>
+                </p>
+            </section>
+        </main>
+    </diV>
+</body>
+
+</html>
