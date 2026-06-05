@@ -31,3 +31,12 @@
     height: 350px;
     object-fit: cover;
 }
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
