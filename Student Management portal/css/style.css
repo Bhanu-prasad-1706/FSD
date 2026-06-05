@@ -40,3 +40,35 @@
 html {
     scroll-behavior: smooth;
 }
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .accordion-item {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .accordion-button {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .table {
+    color: white;
+}
+
+.dark-mode .bg-light {
+    background-color: #1e1e1e !important;
+}
+
+.dark-mode footer {
+    background-color: #000 !important;
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#0f172a;">
+        <div class="container">
+
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/logo.png" alt="CVR Logo" width="45" height="45" class="me-2 rounded-circle">
+
+                <span class="fw-bold">
+                    CVR College of Engineering
+                </span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="registration.html">Registration</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="dashboard.html">Dashboard</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <section class="container my-5">
+
+        <div class="text-center mb-5">
+            <h1 class="fw-bold">Student Dashboard</h1>
+            <p class="text-muted">
+                Monitor student information and attendance records.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <div class="card text-center shadow-sm">
+                    <div class="card-body">
+                        <h2 class="text-primary">1200</h2>
+                        <h5>Total Students</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center shadow-sm">
+                    <div class="card-body">
+                        <h2 class="text-success">1080</h2>
+                        <h5>Present Students</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center shadow-sm">
+                    <div class="card-body">
+                        <h2 class="text-danger">120</h2>
+                        <h5>Absent Students</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card text-center shadow-sm">
+                    <div class="card-body">
+                        <h2 class="text-warning">450</h2>
+                        <h5>Placements</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container mb-4">
+
+        <div class="row justify-content-end">
+
+            <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Search Student">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="container mb-5">
+
+        <div class="table-responsive">
+
+            <table class="table table-striped table-hover table-bordered align-middle">
+
+                <thead class="table-dark">
+                    <tr>
+                        <th>Roll No</th>
+                        <th>Name</th>
+                        <th>Branch</th>
+                        <th>Attendance</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>23B81A0501</td>
+                        <td>Rahul Sharma</td>
+                        <td>CSE</td>
+                        <td>92%</td>
+                        <td>
+                            <span class="badge bg-success">
+                                Present
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>23B81A0402</td>
+                        <td>Anjali Reddy</td>
+                        <td>ECE</td>
+                        <td>88%</td>
+                        <td>
+                            <span class="badge bg-success">
+                                Present
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>23B81A6603</td>
+                        <td>Vikram Kumar</td>
+                        <td>AIML</td>
+                        <td>72%</td>
+                        <td>
+                            <span class="badge bg-warning text-dark">
+                                Late
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>23B81A1204</td>
+                        <td>Sneha Patel</td>
+                        <td>IT</td>
+                        <td>65%</td>
+                        <td>
+                            <span class="badge bg-danger">
+                                Absent
+                            </span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>23B81A0205</td>
+                        <td>Arjun Verma</td>
+                        <td>EEE</td>
+                        <td>95%</td>
+                        <td>
+                            <span class="badge bg-success">
+                                Present
+                            </span>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+    <footer class="bg-dark text-light py-4">
+
+        <div class="container text-center">
+
+            <p class="mb-0">
+                © 2026 CVR College of Engineering. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
