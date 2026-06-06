@@ -81,7 +81,7 @@ student-management-portal/
 
 ### 📝 Registration Form
 
-![Registration Page](images/Registration.png)
+![Registration Page](images/register.png)
 
 ### 📊 Dashboard
 
