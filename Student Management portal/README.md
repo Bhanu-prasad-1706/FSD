@@ -85,7 +85,7 @@ student-management-portal/
 
 ### 📊 Dashboard
 
-![Dashboard](images/dashboard.png)
+![Dashboard](images/Dashboard.png)
 
 ### 📱 Mobile View
 
