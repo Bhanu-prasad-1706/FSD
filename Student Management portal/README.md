@@ -77,19 +77,19 @@ student-management-portal/
 
 ### 🏠 Home Page
 
-![Home Page](screenshots/home-page.png)
+![Home Page](images/Home.png)
 
 ### 📝 Registration Form
 
-![Registration Page](screenshots/registration-page.png)
+![Registration Page](images/Registration.png)
 
 ### 📊 Dashboard
 
-![Dashboard](screenshots/dashboard-page.png)
+![Dashboard](images/dashboard.png)
 
 ### 📱 Mobile View
 
-![Mobile View](screenshots/mobile-view.png)
+![Mobile View](images/Mobileview.png)
 
 ---
 
