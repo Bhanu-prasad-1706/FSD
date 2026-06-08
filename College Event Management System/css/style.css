@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(to bottom, #090909, #050505);
+}
+
+.carousel-img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(255, 140, 0, .2);
+}
