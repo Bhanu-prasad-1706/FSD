@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | CVR College Event Management System</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                🎉 CVR Events
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav mx-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="events.html">
+                            Events
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">
+                            Gallery
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="registration.html">
+                            Registration
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Header -->
+
+    <section class="container text-center my-5">
+
+        <h1 class="fw-bold">
+            Upcoming Events
+        </h1>
+
+        <p class="text-muted">
+            Explore exciting technical and cultural events happening at CVR College.
+        </p>
+
+    </section>
+
+    <!-- Events -->
+
+    <section class="container my-5">
+
+        <div class="row g-4">
+
+            <!-- Technical Quiz -->
+
+            <div class="col-md-4">
+
+                <div class="card shadow-sm h-100">
+
+                    <img src="images/quiz.jpg" class="card-img-top" alt="Technical Quiz">
+
+                    <div class="card-body">
+
+                        <h5>Technical Quiz</h5>
+
+                        <p>
+                            <strong>Date:</strong> 15 March 2026
+                        </p>
+
+                        <p>
+                            <strong>Venue:</strong> Seminar Hall
+                        </p>
+
+                        <a href="registration.html" class="btn btn-warning">
+                            Register
+                        </a>
+
+                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#quizModal">
+                            Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Hackathon -->
+
+            <div class="col-md-4">
+
+                <div class="card shadow-sm h-100">
+
+                    <img src="images/h1.png" class="card-img-top" alt="Hackathon">
+
+                    <div class="card-body">
+
+                        <h5>Hackathon</h5>
+
+                        <p>
+                            <strong>Date:</strong> 18 March 2026
+                        </p>
+
+                        <p>
+                            <strong>Venue:</strong> Innovation Lab
+                        </p>
+
+                        <a href="registration.html" class="btn btn-warning">
+                            Register
+                        </a>
+
+                        <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#hackathonModal">
+                            Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Poster Presentation -->
+
+            <div class="col-md-4">
+
+                <div class="card shadow-sm h-100">
+
+                    <img src="images/poster.jpg" class="card-img-top" alt="Poster Presentation">
+
+                    <div class="card-body">
+
+                        <h5>Poster Presentation</h5>
+
+                        <p>
+                            <strong>Date:</strong> 20 March 2026
+                        </p>
+
+                        <p>
+                            <strong>Venue:</strong> Block A Lobby
+                        </p>
+
+                        <a href="registration.html" class="btn btn-warning">
+                            Register
+                        </a>
+
+                        <button class="btn btn-outline-dark">
+                            Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Coding Contest -->
+
+            <div class="col-md-4">
+
+                <div class="card shadow-sm h-100">
+
+                    <img src="images/h2.jpg" class="card-img-top" alt="Coding Contest">
+
+                    <div class="card-body">
+
+                        <h5>Coding Contest</h5>
+
+                        <p>
+                            <strong>Date:</strong> 22 March 2026
+                        </p>
+
+                        <p>
+                            <strong>Venue:</strong> Computer Lab
+                        </p>
+
+                        <a href="registration.html" class="btn btn-warning">
+                            Register
+                        </a>
+
+                        <button class="btn btn-outline-dark">
+                            Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Project Expo -->
+
+            <div class="col-md-4">
+
+                <div class="card shadow-sm h-100">
+
+                    <img src="images/expo.jpg" class="card-img-top" alt="Project Expo">
+
+                    <div class="card-body">
+
+                        <h5>Project Expo</h5>
+
+                        <p>
+                            <strong>Date:</strong> 24 March 2026
+                        </p>
+
+                        <p>
+                            <strong>Venue:</strong> Auditorium
+                        </p>
+
+                        <a href="registration.html" class="btn btn-warning">
+                            Register
+                        </a>
+
+                        <button class="btn btn-outline-dark">
+                            Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Cultural Fest -->
+
+            <div class="col-md-4">
+
+                <div class="card shadow-sm h-100">
+
+                    <img src="images/h3.jpg" class="card-img-top" alt="Cultural Fest">
+
+                    <div class="card-body">
+
+                        <h5>Cultural Fest</h5>
+
+                        <p>
+                            <strong>Date:</strong> 28 March 2026
+                        </p>
+
+                        <p>
+                            <strong>Venue:</strong> Open Ground
+                        </p>
+
+                        <a href="registration.html" class="btn btn-warning">
+                            Register
+                        </a>
+
+                        <button class="btn btn-outline-dark">
+                            Details
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="quizModal" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Technical Quiz
+                    </h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    Test your technical knowledge and compete with students from different branches.
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="hackathonModal" tabindex="-1">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        Hackathon
+                    </h5>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal">
+                    </button>
+
+                </div>
+
+                <div class="modal-body">
+
+                    Build innovative solutions and showcase your creativity in a 24-hour coding challenge.
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="bg-dark text-light py-4 mt-5">
+
+        <div class="container text-center">
+
+            <h5>
+                CVR College Event Management System
+            </h5>
+
+            <p>
+                Bringing students together through events and innovation.
+            </p>
+
+            <p class="mb-0">
+                © 2026 CVR College of Engineering
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,5 +1,9 @@
 body {
-    background: linear-gradient(to bottom, #090909, #050505);
+    background: white;
+}
+
+.navbar {
+    background: #0b1f3a;
 }
 
 .carousel-img {
@@ -21,4 +25,14 @@ body {
 .card:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 25px rgba(255, 140, 0, .2);
+}
+
+.btn-warning {
+    background: #ff6b00 !important;
+    border-color: #ff6b00 !important;
+    color: white !important;
+}
+
+.text-warning {
+    color: #ff6b00 !important;
 }
