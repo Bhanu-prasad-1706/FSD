@@ -36,3 +36,13 @@ body {
 .text-warning {
     color: #ff6b00 !important;
 }
+
+.gallery-img {
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.03);
+}
