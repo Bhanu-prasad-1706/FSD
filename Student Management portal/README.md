@@ -93,6 +93,14 @@ student-management-portal/
 
 ---
 
+
+## 🔗 GitHub Repository
+
+Repository Link:
+
+```
+https://github.com/Bhanu-prasad-1706/FSD/tree/main/Student%20Management%20portal
+
 ## 📱 Responsive Design
 
 | Device           | Support |
