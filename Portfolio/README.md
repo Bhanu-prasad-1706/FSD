@@ -132,77 +132,54 @@ Portfolio/
 ```
 
 ---
-
 ## 📸 Screenshots
 
 ### 🏠 Home Section
 
-Add screenshot here:
-
-```text
-screenshots/home-page.png
-```
-
-Example:
-
-```md
 ![Home Section](screenshots/home.png)
-```
 
 ---
 
 ### 👨‍🎓 About Section
 
-```md
 ![About Section](screenshots/about.png)
-```
 
 ---
 
 ### 🚀 Projects Section
 
-```md
 ![Projects Section](screenshots/project.png)
-```
 
 ---
 
 ### 🏆 Achievements Section
 
-```md
 ![Achievements Section](screenshots/achievements.png)
-```
 
 ---
 
 ### 📞 Contact Section
 
-```md
 ![Contact Section](screenshots/contact.png)
-```
 
 ---
 
 ### 📱 Mobile Responsive View
 
-```md
 ![Mobile View](screenshots/mobile.png)
-```
-
----
 
 ## 🚀 How to Run
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Bhanu-prasad-1706/FSD/tree/main/Portfolio
+git clone https://github.com/Bhanu-prasad-1706/FSD.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd portfolio
+cd FSD/Portfolio
 ```
 
 3. Open `index.html` in your browser.
