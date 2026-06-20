@@ -12,7 +12,7 @@ public class App
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\n===== PRODUCT MENU =====");
+            System.out.println("\n===== STUDENT MENU =====");
             System.out.println("1. Insert Student");
             System.out.println("2. Read All Students");
             System.out.println("3. Update Student");
