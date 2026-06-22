@@ -1,0 +1,74 @@
+.hero-section {
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-img {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: 0.4s;
+}
+
+.hero-img:hover {
+    transform: translateY(-8px);
+}
+
+.hero-section h1 {
+    color: #0d6efd;
+}
+
+.hero-section .btn {
+    transition: 0.3s;
+}
+
+.hero-section .btn:hover {
+    transform: translateY(-3px);
+}
+
+.carousel-item img {
+    height: 350px;
+    object-fit: cover;
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .accordion-item {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .accordion-button {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .table {
+    color: white;
+}
+
+.dark-mode .bg-light {
+    background-color: #1e1e1e !important;
+}
+
+.dark-mode footer {
+    background-color: #000 !important;
+}
